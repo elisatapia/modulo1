@@ -1,0 +1,15 @@
+        body {
+            background-color: lightblue;
+        }
+        h1 {
+            color: white;
+            text-align: center;
+        }
+        p {
+            font-family: Verdana;
+            font-size: 20px;
+            /*PREFIJO PARA EL NAVEGADOR firefox*/
+            /*en css para hacer comentarios se encierran entre un asterisco y diagonal*/
+            background-image: -moz-linear-gradient(top, #F4Fa58, #FF0000);
+            background-color: #F4FA58;
+        }
