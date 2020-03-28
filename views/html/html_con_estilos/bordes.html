@@ -3,34 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fuentes</title>
+    <title>Bordes</title>
     <style>
         .a {
-            font-family: Arial, Helvetica;
-            font-size: xx-large;
+            border: 5px solid red;
+            border-top-style: dotted;
         }
-
         .b {
-            font-family: Forte;   
+            border: 5px dotted blue;
         }
-        .ejemp1 {
-            font-feature-settings: "smcp" on;
+        .c {
+            border: double;
         }
-        .ejemp2 {
-            font-feature-settings: "frac";
+        .e {
+            border: 3px solid;
+            border-radius: 5px;
         }
-        .italic {
-            font-style: italic;
+        .d {
+            border: solid;
+            border-radius: 2px 5px;
         }
     </style>
 </head>
 <body>
-    <h2 class="a">Arial</h2>
-    <h2 class="b">Forte</h2>
-    <div class="ejemp1">Algún texto 0123</div>
-    <div class="ejemp2">Algún texto 0123</div>
-    <p>Normal <b>Negritas</b></p>
-    <p class="italic">Texto en italic</p>
-    <p class="italic"><u>Subrayado</u></p>
+    <p class="a">Solido</p>
+    <p class="b">Punteado</p>
+    <p class="c">Doble</p>
+    <p class="e">Radius 5px</p>
+    <p class="d">Radius 2px 5px</p>
 </body>
 </html>
