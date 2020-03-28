@@ -1,23 +1,23 @@
-<! DOCTYPE html >
-< html  lang = " en " >
-< cabeza >
-    < meta  charset = " UTF-8 " >
-    < meta  name = " viewport " content = " ancho = ancho del dispositivo, escala inicial = 1.0 " >
-    < título > Selector pseudo-elemento </ título >
-    < estilo >
-        p :: primera letra {
-            color : # ff0000 ;
-            tamaño de fuente : xx-large;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector pseudo_elemento</title>
+    <style>
+        p::first-letter {
+            color: #ff0000;
+            font-size: xx-large;
         }
 
-        p :: primera línea {
-            color : # 0000ff ;
-            variante de fuente : minúsculas;
+        p::first-line {
+            color: #0000ff;
+            font-variant: small-caps;
         }
-    </ estilo >
-</ cabeza >
-< cuerpo >
-    < p > se puede combinar dos selectores de pseudo-elementos :: primera letra y :: dirst-line
-        para agregar efectos, por ejemplo: La primera línea y la primera letra </ p >
-</ cuerpo >
-</ html >
+    </style>
+</head>
+<body>
+    <p>se puede combinar dos selectores de pseudo-elementos ::first-letter y ::dirst-line
+        para agregar efectos, por ejemplo: La primera línea y la primera letra</p>
+</body>
+</html>
